@@ -12,11 +12,16 @@ main {
   font-size: 32px;
   color: red;
   }
+
   .blue-text {color: blue;}
   .red-text {color: red;}
-  .larger-image {width: 500px;}
+  .larger-image {width: 300px;}
   .smaller-image {width: 100px;}
-
+  .thick-green-border {
+      border-color: green;
+      border-width: 10px;
+      border-style: solid;
+    }
 </style>
 <html>
   <head>
@@ -27,11 +32,11 @@ main {
 	</body>
 	<main>
 <!--		<p>Click here to view more <a href="#">cat photos</a>.</p> -->
-		<a href="#"><img src="https://mirokrustev.github.io/img/face.jpg" class="smaller-image" alt="face with sunglasses"></a>
+		<a href="#"><img src="https://mirokrustev.github.io/img/wine_production.jpg" class="larger-image thick-green-border" alt="face with sunglasses"></a>
      <div>
 				<p>Things Miro loves:</p>
 				<ul>
-					<li>My kids</li>
+					<li>My family</li>
           <li>Tennis</li>
 					<li>Football</li>
 					<li>Basketball</li>
@@ -43,7 +48,7 @@ main {
 					<li>work, work, work</li>
 				</ol>
 			</div>
-		<form action="/submit-miro-photo">
+<!--		<form action="/submit-miro-photo">
 			<label><input type="radio" name="radio-button" checked> Button1</label>
 			<label><input type="radio" name="radio-button"> Button2</label><br>
 			<label><input type="checkbox" name="personality" checked> Loving</label>
@@ -51,6 +56,6 @@ main {
 			<label><input type="checkbox" name="personality"> Energetic</label><br>
 			<input type="text" placeholder="Miro photo URL" required>
 			<button type="submit">Submit</button>
-		</form>
+		</form> -->
 	</main>
 </html>
